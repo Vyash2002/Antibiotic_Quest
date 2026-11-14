@@ -1,4 +1,5 @@
-# Antibiotic Quest
+# Antibiotic Quest 
+# Computing For Medicine(CSE585)
 
 A browser-based snakes-and-ladders game that teaches responsible antibiotic use. It measures
 learning with a pre-test/post-test design. Computing for Medicine project, IIIT-Delhi.
