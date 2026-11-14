@@ -1,0 +1,18 @@
+measure,value
+n participants (complete pre+post),40
+n excluded (incomplete),0
+"pre-test mean (SD), out of 16",7.05 (3.86)
+"post-test mean (SD), out of 16",9.95 (3.95)
+mean change (95% CI),2.90 (1.85 to 3.95)
+median change (IQR),3.0 (1.0 to 5.0)
+"Shapiro-Wilk on differences (W, p)","0.967, 0.2984"
+"paired t-test one-sided (t, df, p)","5.605, 39, 9.15e-07"
+paired t-test two-sided p,1.83e-06
+"Wilcoxon signed-rank one-sided (W+, p)","632.5, 1.03e-05"
+rank-biserial r (Wilcoxon effect size),0.799
+Cohen's dz (bootstrap 95% CI),0.89 (0.59 to 1.28)
+class-average normalised gain <g>,0.32
+primary test (by pre-registered rule),paired t-test
+primary p-value,9.15e-07
+decision at alpha = 0.05,reject H0
+KR-20 reliability of knowledge test (pre),0.81

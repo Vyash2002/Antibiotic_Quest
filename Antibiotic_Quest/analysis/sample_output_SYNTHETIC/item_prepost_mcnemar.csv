@@ -1,0 +1,17 @@
+item,topic,statement,pre_correct_pct,post_correct_pct,pre_dont_know_pct,wrong_to_right,right_to_wrong,p_mcnemar_exact,p_holm
+K01,Bacteria vs viruses,Antibiotics kill viruses.,52.5,67.5,5.0,9,3,0.14599609375,1.0
+K02,Bacteria vs viruses,Antibiotics are effective against colds and flu.,32.5,65.0,20.0,15,2,0.002349853515625,0.03759765625
+K03,Bacteria vs viruses,People with a common cold usually need antibiotics to recover.,47.5,75.0,22.5,13,2,0.00738525390625,0.11077880859375
+K04,Bacteria vs viruses,Some infections caused by bacteria can get better without antibiotics.,40.0,65.0,20.0,13,3,0.021270751953125,0.276519775390625
+K05,Antibiotic misuse,"It's okay to use antibiotics that were given to a friend or family member, as long as they were used to treat the same illness.",62.5,77.5,25.0,11,5,0.210113525390625,1.0
+K06,Antibiotic misuse,"It's okay to buy the same antibiotics, or ask a doctor for them, if they helped you get better when you had the same symptoms before.",67.5,82.5,7.5,9,3,0.14599609375,1.0
+K07,Antibiotic misuse,Taking antibiotics often has side effects such as diarrhoea.,42.5,62.5,25.0,13,5,0.09625244140625,1.0
+K08,Antibiotic misuse,"In India, a vertical red line on a medicine strip means it should be taken only with a doctor's prescription.",12.5,25.0,32.5,8,3,0.2265625,1.0
+K09,Antibiotic misuse,"If you are prescribed antibiotics and start to feel better, what should you do?",62.5,70.0,0.0,10,7,0.629058837890625,1.0
+K10,Infection prevention,Rinsing hands with plain water for 2-3 seconds is enough to remove most germs.,65.0,67.5,15.0,6,5,1.0,1.0
+K11,Infection prevention,Vaccines can reduce the need for antibiotics by preventing infections.,35.0,65.0,25.0,16,4,0.01181793212890625,0.1654510498046875
+K12,Infection prevention,Bacteria which are resistant to antibiotics can be spread from person to person.,40.0,57.5,20.0,11,4,0.11846923828124999,1.0
+K13,AMR / superbugs,Antibiotic resistance occurs when your body becomes resistant to antibiotics and they no longer work as well.,20.0,35.0,35.0,11,5,0.210113525390625,1.0
+K14,AMR / superbugs,Antibiotic resistance is only a problem for people who take antibiotics regularly.,40.0,62.5,20.0,14,5,0.063568115234375,0.7628173828125
+K15,AMR / superbugs,Unnecessary use of antibiotics makes them become ineffective.,47.5,62.5,22.5,9,3,0.14599609375,1.0
+K16,AMR / superbugs,Antibiotic-resistant infections could make medical procedures like surgery and cancer treatment much more dangerous.,37.5,55.0,20.0,14,7,0.18924713134765625,1.0

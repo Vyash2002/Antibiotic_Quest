@@ -1,0 +1,1902 @@
+{
+ "version": "0.1-draft",
+ "generated": "2026-11-14",
+ "note": "Draft: every question is pending expert review. Do not use with participants until Review_Status = approved.",
+ "levels": {
+  "1": "Know Your Enemy",
+  "2": "The Antibiotic Trap",
+  "3": "Stop the Spread",
+  "4": "The Superbug Challenge",
+  "5": "AMR Champion"
+ },
+ "questions": [
+  {
+   "id": "AQ001",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "easy",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F01",
+    "F02"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Antibiotics are the right medicine for illnesses caused by viruses.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. Antibiotics act on bacteria, not viruses. They do not help with viral illnesses such as colds and flu.",
+    "hint": "Antibiotics were designed to fight one particular type of germ."
+   },
+   "hi": {
+    "question": "वायरस से होने वाली बीमारियों के लिए एंटीबायोटिक सही दवा है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। एंटीबायोटिक बैक्टीरिया पर असर करती हैं, वायरस पर नहीं। सर्दी-ज़ुकाम और फ्लू जैसी वायरल बीमारियों में ये मदद नहीं करतीं।",
+    "hint": "एंटीबायोटिक एक खास तरह के कीटाणु से लड़ने के लिए बनी हैं।"
+   }
+  },
+  {
+   "id": "AQ002",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F01"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Antibiotics are medicines used to treat infections caused by:",
+    "options": [
+     "Viruses",
+     "Allergies",
+     "Bacteria",
+     "Stress"
+    ],
+    "explanation": "Antibiotics treat and prevent infections caused by bacteria.",
+    "hint": "It is a type of tiny single-celled germ."
+   },
+   "hi": {
+    "question": "एंटीबायोटिक दवाएं किससे होने वाले संक्रमण के इलाज में काम आती हैं?",
+    "options": [
+     "वायरस",
+     "एलर्जी",
+     "बैक्टीरिया",
+     "तनाव"
+    ],
+    "explanation": "एंटीबायोटिक बैक्टीरिया से होने वाले संक्रमण का इलाज करती हैं और उन्हें रोकती हैं।",
+    "hint": "यह एक तरह का बहुत छोटा, एक-कोशिका वाला कीटाणु है।"
+   }
+  },
+  {
+   "id": "AQ003",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F02",
+    "F03",
+    "F40"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which of these illnesses is usually caused by a virus?",
+    "options": [
+     "Infected wound",
+     "Urinary tract infection",
+     "Strep throat",
+     "Common cold"
+    ],
+    "explanation": "The common cold is caused by viruses, so antibiotics will not help it. Strep throat, urinary tract infections and infected wounds are usually bacterial - a health professional decides on treatment.",
+    "hint": "Which one spreads easily through sneezing and usually goes away in a week or two?"
+   },
+   "hi": {
+    "question": "इनमें से आमतौर पर कौन-सी बीमारी वायरस से होती है?",
+    "options": [
+     "संक्रमित घाव",
+     "पेशाब की नली का संक्रमण (UTI)",
+     "स्ट्रेप गले का संक्रमण",
+     "साधारण सर्दी-ज़ुकाम"
+    ],
+    "explanation": "साधारण सर्दी-ज़ुकाम वायरस से होता है, इसलिए इसमें एंटीबायोटिक काम नहीं करतीं। स्ट्रेप गले का संक्रमण, UTI और संक्रमित घाव आमतौर पर बैक्टीरिया से होते हैं — इलाज का फ़ैसला डॉक्टर या स्वास्थ्य कार्यकर्ता करते हैं।",
+    "hint": "कौन-सी बीमारी छींक से आसानी से फैलती है और आमतौर पर एक-दो हफ़्ते में ठीक हो जाती है?"
+   }
+  },
+  {
+   "id": "AQ004",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "easy",
+   "type": "scenario",
+   "correct": "B",
+   "fact_ids": [
+    "F02",
+    "F03",
+    "F09"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Riya has had a runny nose and sneezing for two days. What is the safest thing to do?",
+    "options": [
+     "Take the leftover antibiotics at home",
+     "Rest, drink fluids, and see a health worker if she feels worse or is worried",
+     "Borrow antibiotics from her roommate",
+     "Ask the chemist for the strongest antibiotic"
+    ],
+    "explanation": "A runny nose and sneezing are typical of a cold, which is viral. Antibiotics will not help; rest and fluids do. Leftover, borrowed or chemist-chosen antibiotics are never safe choices.",
+    "hint": "Colds usually get better on their own."
+   },
+   "hi": {
+    "question": "रिया को दो दिन से नाक बह रही है और छींकें आ रही हैं। सबसे सुरक्षित कदम क्या है?",
+    "options": [
+     "घर में बची हुई एंटीबायोटिक ले ले",
+     "आराम करे, पानी और तरल पदार्थ पिए, और तबीयत बिगड़े या चिंता हो तो स्वास्थ्य कार्यकर्ता से मिले",
+     "अपनी रूममेट से एंटीबायोटिक उधार ले",
+     "केमिस्ट से सबसे तेज़ एंटीबायोटिक माँगे"
+    ],
+    "explanation": "नाक बहना और छींकें आना आमतौर पर सर्दी-ज़ुकाम के लक्षण हैं, जो वायरस से होता है। एंटीबायोटिक इसमें मदद नहीं करतीं; आराम और तरल पदार्थ मदद करते हैं। बची हुई, उधार ली हुई या केमिस्ट के कहने पर ली गई एंटीबायोटिक कभी सुरक्षित विकल्प नहीं है।",
+    "hint": "सर्दी-ज़ुकाम आमतौर पर अपने आप ठीक हो जाता है।"
+   }
+  },
+  {
+   "id": "AQ005",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F02"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "If your mucus is thick, yellow or green, you need antibiotics.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. Colds and runny noses are not helped by antibiotics, even when the mucus is thick, yellow or green.",
+    "hint": "Mucus colour is a common myth."
+   },
+   "hi": {
+    "question": "अगर बलगम गाढ़ा, पीला या हरा है, तो एंटीबायोटिक लेनी ही चाहिए।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। सर्दी-ज़ुकाम और बहती नाक में एंटीबायोटिक मदद नहीं करतीं, चाहे बलगम गाढ़ा, पीला या हरा ही क्यों न हो।",
+    "hint": "बलगम के रंग को लेकर यह एक आम भ्रम है।"
+   }
+  },
+  {
+   "id": "AQ006",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F02"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Flu (influenza) is caused by:",
+    "options": [
+     "A virus",
+     "A parasite",
+     "Bacteria",
+     "A fungus"
+    ],
+    "explanation": "Flu is caused by a virus, so antibiotics do not treat it.",
+    "hint": "Its full name comes from the 'influenza virus'."
+   },
+   "hi": {
+    "question": "फ्लू (इन्फ्लूएंज़ा) किससे होता है?",
+    "options": [
+     "वायरस",
+     "परजीवी",
+     "बैक्टीरिया",
+     "फफूंद (फंगस)"
+    ],
+    "explanation": "फ्लू वायरस से होता है, इसलिए एंटीबायोटिक इसका इलाज नहीं करतीं।",
+    "hint": "इसका पूरा नाम 'इन्फ्लूएंज़ा वायरस' से आता है।"
+   }
+  },
+  {
+   "id": "AQ007",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "A",
+   "fact_ids": [
+    "F03"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Most colds get better on their own in about one to two weeks.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "True. Respiratory viruses usually go away in a week or two without treatment. A health professional can suggest ways to feel better meanwhile.",
+    "hint": "The body's own defences fight off cold viruses."
+   },
+   "hi": {
+    "question": "ज़्यादातर सर्दी-ज़ुकाम लगभग एक से दो हफ़्ते में अपने आप ठीक हो जाते हैं।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "सही। साँस से जुड़े वायरल संक्रमण आमतौर पर बिना इलाज के एक-दो हफ़्ते में ठीक हो जाते हैं। तब तक आराम पाने के उपाय डॉक्टर या स्वास्थ्य कार्यकर्ता बता सकते हैं।",
+    "hint": "शरीर की अपनी रक्षा-प्रणाली सर्दी के वायरस से लड़ती है।"
+   }
+  },
+  {
+   "id": "AQ008",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F06"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which medicine is matched with the right type of germ?",
+    "options": [
+     "Antibiotics → bacteria",
+     "Antibiotics → viruses",
+     "Antifungals → viruses",
+     "Antivirals → bacteria"
+    ],
+    "explanation": "Different medicines target different germs: antibiotics for bacteria, antivirals for viruses and antifungals for fungi.",
+    "hint": "Look at the start of each medicine's name."
+   },
+   "hi": {
+    "question": "कौन-सी दवा सही कीटाणु के साथ जोड़ी गई है?",
+    "options": [
+     "एंटीबायोटिक → बैक्टीरिया",
+     "एंटीबायोटिक → वायरस",
+     "एंटीफंगल → वायरस",
+     "एंटीवायरल → बैक्टीरिया"
+    ],
+    "explanation": "अलग-अलग दवाएं अलग-अलग कीटाणुओं पर काम करती हैं: एंटीबायोटिक बैक्टीरिया पर, एंटीवायरल वायरस पर और एंटीफंगल फफूंद पर।",
+    "hint": "हर दवा के नाम का पहला हिस्सा ध्यान से देखें।"
+   }
+  },
+  {
+   "id": "AQ009",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F05"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Taking an antibiotic for a viral infection helps you recover faster.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. An antibiotic will not make you feel better if you have a virus, and its side effects can still harm you.",
+    "hint": "Does the medicine match the germ?"
+   },
+   "hi": {
+    "question": "वायरल संक्रमण में एंटीबायोटिक लेने से आप जल्दी ठीक हो जाते हैं।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। वायरस होने पर एंटीबायोटिक से आप बेहतर महसूस नहीं करेंगे, और इसके दुष्प्रभाव फिर भी नुकसान पहुँचा सकते हैं।",
+    "hint": "क्या दवा और कीटाणु का मेल सही है?"
+   }
+  },
+  {
+   "id": "AQ010",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F04"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which statement is correct?",
+    "options": [
+     "Antibiotics prevent colds",
+     "Antibiotics work against all kinds of germs",
+     "Every bacterial infection needs antibiotics",
+     "Some bacterial infections, like many sinus infections, can get better without antibiotics - a health professional decides"
+    ],
+    "explanation": "Antibiotics are not needed for some common bacterial infections, including many sinus infections and some ear infections. Only a health professional can decide.",
+    "hint": "Even some bacterial infections clear up by themselves."
+   },
+   "hi": {
+    "question": "कौन-सा कथन सही है?",
+    "options": [
+     "एंटीबायोटिक सर्दी-ज़ुकाम से बचाती हैं",
+     "एंटीबायोटिक हर तरह के कीटाणु पर काम करती हैं",
+     "हर बैक्टीरियल संक्रमण में एंटीबायोटिक ज़रूरी है",
+     "कुछ बैक्टीरियल संक्रमण, जैसे साइनस के कई संक्रमण, बिना एंटीबायोटिक भी ठीक हो सकते हैं — फ़ैसला डॉक्टर या स्वास्थ्य कार्यकर्ता करते हैं"
+    ],
+    "explanation": "कुछ आम बैक्टीरियल संक्रमणों में भी एंटीबायोटिक की ज़रूरत नहीं होती, जैसे साइनस के कई संक्रमण और कान के कुछ संक्रमण। यह फ़ैसला केवल डॉक्टर या स्वास्थ्य कार्यकर्ता ही कर सकते हैं।",
+    "hint": "कुछ बैक्टीरियल संक्रमण भी अपने आप ठीक हो जाते हैं।"
+   }
+  },
+  {
+   "id": "AQ011",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "hard",
+   "type": "scenario",
+   "correct": "C",
+   "fact_ids": [
+    "F02",
+    "F09"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Aman has a mild sore throat and cough. His friend says, 'Just take an antibiotic - it works for everything.' What is the best reply?",
+    "options": [
+     "\"Okay, I'll buy one from the chemist.\"",
+     "\"I'll take half a strip just to be safe.\"",
+     "\"Most sore throats and coughs are viral, and antibiotics don't work on viruses. I'll see a health worker if I'm worried.\"",
+     "\"I'll use my sister's antibiotics.\""
+    ],
+    "explanation": "Most sore throats (except strep throat) are caused by viruses. Antibiotics do not work on viruses, so 'antibiotics work for everything' is a myth.",
+    "hint": "Does any medicine really work for everything?"
+   },
+   "hi": {
+    "question": "अमन को हल्की गले की खराश और खाँसी है। उसका दोस्त कहता है, 'बस एंटीबायोटिक ले लो — यह हर चीज़ पर काम करती है।' सबसे अच्छा जवाब क्या है?",
+    "options": [
+     "\"ठीक है, मैं केमिस्ट से ले आता हूँ।\"",
+     "\"सुरक्षा के लिए आधा पत्ता ले लेता हूँ।\"",
+     "\"ज़्यादातर गले की खराश और खाँसी वायरस से होती है, और एंटीबायोटिक वायरस पर काम नहीं करतीं। चिंता हुई तो मैं स्वास्थ्य कार्यकर्ता से मिलूँगा।\"",
+     "\"मैं अपनी बहन की एंटीबायोटिक ले लूँगा।\""
+    ],
+    "explanation": "ज़्यादातर गले की खराश (स्ट्रेप गले को छोड़कर) वायरस से होती है। एंटीबायोटिक वायरस पर काम नहीं करतीं, इसलिए 'एंटीबायोटिक हर चीज़ पर काम करती है' एक भ्रम है।",
+    "hint": "क्या कोई भी दवा सच में 'हर चीज़ पर' काम करती है?"
+   }
+  },
+  {
+   "id": "AQ012",
+   "level": 1,
+   "topic": "T1_bacteria_vs_viruses",
+   "difficulty": "hard",
+   "type": "tf",
+   "correct": "A",
+   "fact_ids": [
+    "F05",
+    "F13",
+    "F31"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Even when an antibiotic is not needed, it can still cause side effects.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "True. Any time antibiotics are used they can cause side effects such as rash, nausea or diarrhoea - so taking them without need brings risk without benefit.",
+    "hint": "Every medicine has possible side effects."
+   },
+   "hi": {
+    "question": "जब एंटीबायोटिक की ज़रूरत न हो, तब भी वह दुष्प्रभाव (साइड इफ़ेक्ट) पैदा कर सकती है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "सही। जब भी एंटीबायोटिक ली जाती है, वह चकत्ते, जी मिचलाना या दस्त जैसे दुष्प्रभाव पैदा कर सकती है — इसलिए बिना ज़रूरत लेने से फ़ायदा नहीं, सिर्फ़ जोखिम मिलता है।",
+    "hint": "हर दवा के कुछ संभावित दुष्प्रभाव होते हैं।"
+   }
+  },
+  {
+   "id": "AQ013",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "easy",
+   "type": "scenario",
+   "correct": "B",
+   "fact_ids": [
+    "F09",
+    "F10",
+    "F14"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Your friend offers you the antibiotics her doctor gave her, because your symptoms 'look the same'. What should you do?",
+    "options": [
+     "Take them, since the symptoms look the same",
+     "Politely refuse and see a doctor or health worker yourself",
+     "Take them with extra water",
+     "Take half of them to be careful"
+    ],
+    "explanation": "Antibiotics prescribed for someone else may be the wrong medicine for you, delay the right treatment and cause side effects.",
+    "hint": "Similar symptoms do not mean the same illness."
+   },
+   "hi": {
+    "question": "आपकी दोस्त आपको वह एंटीबायोटिक देती है जो उसके डॉक्टर ने उसे लिखी थी, क्योंकि आपके लक्षण 'एक जैसे दिखते हैं'। आपको क्या करना चाहिए?",
+    "options": [
+     "ले लें, क्योंकि लक्षण एक जैसे दिखते हैं",
+     "विनम्रता से मना करें और खुद डॉक्टर या स्वास्थ्य कार्यकर्ता को दिखाएं",
+     "ज़्यादा पानी के साथ ले लें",
+     "सावधानी के लिए आधी दवा ले लें"
+    ],
+    "explanation": "किसी और के लिए लिखी गई एंटीबायोटिक आपके लिए गलत दवा हो सकती है, सही इलाज में देरी कर सकती है और दुष्प्रभाव पैदा कर सकती है।",
+    "hint": "मिलते-जुलते लक्षणों का मतलब एक ही बीमारी नहीं होता।"
+   }
+  },
+  {
+   "id": "AQ014",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F09",
+    "F11"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "You have leftover antibiotics from last year and feel sick again with similar symptoms. What should you do?",
+    "options": [
+     "Talk to a doctor or health worker instead of treating yourself",
+     "Take the leftover tablets",
+     "Take them together with a painkiller",
+     "Take double the leftover dose"
+    ],
+    "explanation": "Never use leftover antibiotics. The illness may be different, the medicine may be wrong, and using it can delay proper treatment.",
+    "hint": "Last year's illness may not be this year's illness."
+   },
+   "hi": {
+    "question": "आपके पास पिछले साल की बची हुई एंटीबायोटिक है और फिर से वैसे ही लक्षण हो रहे हैं। आपको क्या करना चाहिए?",
+    "options": [
+     "खुद इलाज करने की बजाय डॉक्टर या स्वास्थ्य कार्यकर्ता से बात करें",
+     "बची हुई गोलियाँ ले लें",
+     "उन्हें किसी दर्द-निवारक के साथ ले लें",
+     "बची हुई दवा की दोगुनी खुराक लें"
+    ],
+    "explanation": "बची हुई एंटीबायोटिक कभी इस्तेमाल न करें। बीमारी अलग हो सकती है, दवा गलत हो सकती है, और इससे सही इलाज में देरी हो सकती है।",
+    "hint": "पिछले साल की बीमारी और इस साल की बीमारी अलग हो सकती है।"
+   }
+  },
+  {
+   "id": "AQ015",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "B",
+   "fact_ids": [
+    "F07"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "When should you use antibiotics?",
+    "options": [
+     "When a neighbour recommends them",
+     "Only when prescribed by a qualified health professional",
+     "Whenever you feel unwell",
+     "Before exams, so you don't fall sick"
+    ],
+    "explanation": "Only use antibiotics when they are prescribed by a certified health professional.",
+    "hint": "Who should decide whether you need one?"
+   },
+   "hi": {
+    "question": "एंटीबायोटिक कब लेनी चाहिए?",
+    "options": [
+     "जब कोई पड़ोसी सलाह दे",
+     "सिर्फ़ तब, जब कोई योग्य डॉक्टर या स्वास्थ्य पेशेवर लिखे",
+     "जब भी तबीयत ठीक न लगे",
+     "परीक्षा से पहले, ताकि बीमार न पड़ें"
+    ],
+    "explanation": "एंटीबायोटिक सिर्फ़ तभी लें जब कोई प्रमाणित डॉक्टर या स्वास्थ्य पेशेवर उसे लिखे।",
+    "hint": "आपको इसकी ज़रूरत है या नहीं, यह कौन तय करे?"
+   }
+  },
+  {
+   "id": "AQ016",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "easy",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F09"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Sharing your antibiotics with a family member who has the same symptoms saves a doctor's visit, so it is a good idea.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. Never share antibiotics. The other person may need a different treatment, or no antibiotic at all.",
+    "hint": "A prescription is written for one person."
+   },
+   "hi": {
+    "question": "एक जैसे लक्षण वाले परिवार के सदस्य के साथ अपनी एंटीबायोटिक बाँटने से डॉक्टर के पास जाना बचता है, इसलिए यह अच्छा है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। एंटीबायोटिक कभी किसी के साथ न बाँटें। दूसरे व्यक्ति को अलग इलाज की ज़रूरत हो सकती है, या शायद किसी एंटीबायोटिक की ज़रूरत ही न हो।",
+    "hint": "डॉक्टर का पर्चा एक ही व्यक्ति के लिए लिखा जाता है।"
+   }
+  },
+  {
+   "id": "AQ017",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "scenario",
+   "correct": "C",
+   "fact_ids": [
+    "F08",
+    "F03"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "A doctor tells Meena she has a viral infection and does not need antibiotics. What should Meena do?",
+    "options": [
+     "Buy antibiotics from another chemist",
+     "Insist on getting antibiotics anyway",
+     "Follow the advice and ask how to ease her symptoms",
+     "Take her mother's leftover tablets"
+    ],
+    "explanation": "Never demand antibiotics if your health worker says you don't need them. Ask how to feel better while your body fights the virus.",
+    "hint": "Trust the person who examined her."
+   },
+   "hi": {
+    "question": "डॉक्टर मीना को बताते हैं कि उसे वायरल संक्रमण है और एंटीबायोटिक की ज़रूरत नहीं है। मीना को क्या करना चाहिए?",
+    "options": [
+     "किसी दूसरे केमिस्ट से एंटीबायोटिक खरीद ले",
+     "फिर भी एंटीबायोटिक लेने की ज़िद करे",
+     "सलाह माने और लक्षणों में आराम के उपाय पूछे",
+     "माँ की बची हुई गोलियाँ ले ले"
+    ],
+    "explanation": "अगर स्वास्थ्य कार्यकर्ता कहे कि एंटीबायोटिक की ज़रूरत नहीं है, तो उसकी माँग न करें। पूछें कि जब तक शरीर वायरस से लड़ रहा है, तब तक आराम कैसे मिले।",
+    "hint": "जिसने जाँच की है, उसकी सलाह पर भरोसा करें।"
+   }
+  },
+  {
+   "id": "AQ018",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F15"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "In India, what does a vertical red line on a medicine strip mean?",
+    "options": [
+     "It is a herbal medicine",
+     "It is safe for everyone",
+     "The medicine has expired",
+     "Take it only with a doctor's prescription"
+    ],
+    "explanation": "Under the Health Ministry's 'Medicines with the Red Line' campaign, a vertical red line marks prescription-only medicines, including many antibiotics. Don't take them without a doctor's prescription.",
+    "hint": "Red is a warning colour."
+   },
+   "hi": {
+    "question": "भारत में दवा के पत्ते पर खड़ी लाल लकीर का क्या मतलब है?",
+    "options": [
+     "यह जड़ी-बूटी वाली दवा है",
+     "यह सबके लिए सुरक्षित है",
+     "दवा की एक्सपायरी तारीख निकल चुकी है",
+     "इसे सिर्फ़ डॉक्टर के पर्चे पर ही लें"
+    ],
+    "explanation": "स्वास्थ्य मंत्रालय के 'रेड लाइन' अभियान के तहत खड़ी लाल लकीर उन दवाओं पर होती है जो सिर्फ़ पर्चे पर मिलनी चाहिए, जिनमें कई एंटीबायोटिक भी शामिल हैं। इन्हें डॉक्टर के पर्चे के बिना न लें।",
+    "hint": "लाल रंग चेतावनी का रंग है।"
+   }
+  },
+  {
+   "id": "AQ019",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "scenario",
+   "correct": "D",
+   "fact_ids": [
+    "F07",
+    "F15",
+    "F16"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "A chemist offers to sell Rahul antibiotics for his cough without a prescription. What is the safest choice?",
+    "options": [
+     "Buy just two tablets to try",
+     "Buy them because the chemist suggested it",
+     "Buy a strip to keep for later",
+     "Say no and consult a qualified doctor or health worker"
+    ],
+    "explanation": "Antibiotics should be used only when prescribed by a certified health professional. In India they are meant to be sold only on prescription.",
+    "hint": "Who should prescribe antibiotics?"
+   },
+   "hi": {
+    "question": "एक केमिस्ट राहुल को उसकी खाँसी के लिए बिना पर्चे के एंटीबायोटिक बेचने की पेशकश करता है। सबसे सुरक्षित विकल्प क्या है?",
+    "options": [
+     "आज़माने के लिए बस दो गोलियाँ खरीद ले",
+     "केमिस्ट ने कहा है, तो खरीद ले",
+     "बाद के लिए एक पत्ता खरीदकर रख ले",
+     "मना करे और किसी योग्य डॉक्टर या स्वास्थ्य कार्यकर्ता से सलाह ले"
+    ],
+    "explanation": "एंटीबायोटिक सिर्फ़ प्रमाणित डॉक्टर या स्वास्थ्य पेशेवर के लिखने पर ही लेनी चाहिए। भारत में इन्हें सिर्फ़ पर्चे पर ही बेचा जाना चाहिए।",
+    "hint": "एंटीबायोटिक कौन लिख सकता है?"
+   }
+  },
+  {
+   "id": "AQ020",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F12"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "If a doctor prescribes you antibiotics, how should you take them?",
+    "options": [
+     "Stop as soon as you feel a little better, without telling anyone",
+     "Take extra tablets to recover faster",
+     "Exactly as prescribed; ask the doctor before stopping or changing them",
+     "Save a few tablets for next time"
+    ],
+    "explanation": "If you need antibiotics, take them exactly as prescribed and always follow your health worker's advice. Talk to them before making any change.",
+    "hint": "The prescription is the plan."
+   },
+   "hi": {
+    "question": "अगर डॉक्टर आपको एंटीबायोटिक लिखते हैं, तो उन्हें कैसे लेना चाहिए?",
+    "options": [
+     "थोड़ा बेहतर लगते ही बिना किसी को बताए बंद कर दें",
+     "जल्दी ठीक होने के लिए ज़्यादा गोलियाँ लें",
+     "ठीक वैसे ही जैसे लिखी गई है; बंद करने या बदलने से पहले डॉक्टर से पूछें",
+     "अगली बार के लिए कुछ गोलियाँ बचा लें"
+    ],
+    "explanation": "अगर एंटीबायोटिक की ज़रूरत है, तो उन्हें ठीक वैसे ही लें जैसे लिखी गई हैं और हमेशा स्वास्थ्य कार्यकर्ता की सलाह मानें। कोई भी बदलाव करने से पहले उनसे बात करें।",
+    "hint": "डॉक्टर का पर्चा ही आपकी योजना है।"
+   }
+  },
+  {
+   "id": "AQ021",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F11"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Keeping some antibiotics aside 'for next time' is a good habit.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. Don't save antibiotics for later. Taking the wrong medicine for a future illness can delay the right treatment and cause side effects.",
+    "hint": "Next time's illness may be different."
+   },
+   "hi": {
+    "question": "कुछ एंटीबायोटिक 'अगली बार के लिए' बचाकर रखना अच्छी आदत है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। एंटीबायोटिक बाद के लिए न बचाएं। भविष्य की किसी बीमारी में गलत दवा लेने से सही इलाज में देरी हो सकती है और दुष्प्रभाव हो सकते हैं।",
+    "hint": "अगली बार की बीमारी अलग हो सकती है।"
+   }
+  },
+  {
+   "id": "AQ022",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F13"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which of these is a common side effect of antibiotics?",
+    "options": [
+     "Diarrhoea",
+     "None - antibiotics have no side effects",
+     "Permanent protection from colds",
+     "Stronger immunity for life"
+    ],
+    "explanation": "Common side effects include rash, dizziness, nausea, diarrhoea and yeast infections. Tell a health professional if you get side effects.",
+    "hint": "Think about your stomach."
+   },
+   "hi": {
+    "question": "इनमें से एंटीबायोटिक का आम दुष्प्रभाव कौन-सा है?",
+    "options": [
+     "दस्त",
+     "कोई नहीं — एंटीबायोटिक का कोई दुष्प्रभाव नहीं होता",
+     "सर्दी-ज़ुकाम से हमेशा के लिए सुरक्षा",
+     "जीवनभर के लिए मज़बूत रोग-प्रतिरोधक क्षमता"
+    ],
+    "explanation": "आम दुष्प्रभावों में चकत्ते, चक्कर, जी मिचलाना, दस्त और फंगल (यीस्ट) संक्रमण शामिल हैं। दुष्प्रभाव होने पर डॉक्टर या स्वास्थ्य कार्यकर्ता को बताएं।",
+    "hint": "पेट के बारे में सोचें।"
+   }
+  },
+  {
+   "id": "AQ023",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "B",
+   "fact_ids": [
+    "F10"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Why is taking someone else's antibiotics risky?",
+    "options": [
+     "It is not risky at all",
+     "It may be the wrong medicine, delay proper treatment and cause side effects",
+     "It is risky only if the person is older than you",
+     "It is risky only if the tablets have expired"
+    ],
+    "explanation": "Antibiotics prescribed for someone else may not suit your illness. They can delay the best treatment, make you sicker or cause side effects.",
+    "hint": "Was the medicine chosen for you?"
+   },
+   "hi": {
+    "question": "किसी और की एंटीबायोटिक लेना जोखिम भरा क्यों है?",
+    "options": [
+     "इसमें कोई जोखिम नहीं है",
+     "यह गलत दवा हो सकती है, सही इलाज में देरी कर सकती है और दुष्प्रभाव पैदा कर सकती है",
+     "यह सिर्फ़ तब जोखिम भरा है जब वह व्यक्ति आपसे बड़ा हो",
+     "यह सिर्फ़ तब जोखिम भरा है जब गोलियों की एक्सपायरी तारीख निकल चुकी हो"
+    ],
+    "explanation": "किसी और के लिए लिखी एंटीबायोटिक आपकी बीमारी के लिए सही नहीं भी हो सकती। इससे सही इलाज में देरी हो सकती है, तबीयत और बिगड़ सकती है या दुष्प्रभाव हो सकते हैं।",
+    "hint": "क्या वह दवा आपके लिए चुनी गई थी?"
+   }
+  },
+  {
+   "id": "AQ024",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "hard",
+   "type": "scenario",
+   "correct": "C",
+   "fact_ids": [
+    "F12",
+    "F13"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Priya's prescribed antibiotic is giving her an upset stomach. What should she do?",
+    "options": [
+     "Switch to her brother's antibiotics",
+     "Double the dose to finish sooner",
+     "Contact her doctor or health worker for advice",
+     "Stop and throw the tablets away without telling anyone"
+    ],
+    "explanation": "If you develop side effects while taking an antibiotic, contact a health professional. They decide whether anything should change - don't decide alone.",
+    "hint": "Who prescribed the medicine?"
+   },
+   "hi": {
+    "question": "प्रिया को डॉक्टर की लिखी एंटीबायोटिक से पेट खराब हो रहा है। उसे क्या करना चाहिए?",
+    "options": [
+     "अपने भाई की एंटीबायोटिक लेने लगे",
+     "जल्दी खत्म करने के लिए खुराक दोगुनी कर दे",
+     "सलाह के लिए अपने डॉक्टर या स्वास्थ्य कार्यकर्ता से संपर्क करे",
+     "बिना किसी को बताए दवा बंद करके फेंक दे"
+    ],
+    "explanation": "एंटीबायोटिक लेते समय दुष्प्रभाव हों तो डॉक्टर या स्वास्थ्य कार्यकर्ता से संपर्क करें। कुछ बदलना है या नहीं, यह वही तय करेंगे — अकेले फ़ैसला न करें।",
+    "hint": "दवा किसने लिखी थी?"
+   }
+  },
+  {
+   "id": "AQ025",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F17",
+    "F36"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "What should you do with unused or expired medicines at home?",
+    "options": [
+     "Keep them for the next illness",
+     "Give them to neighbours",
+     "Throw them into a pond or drain",
+     "Ask a pharmacist how to dispose of them safely"
+    ],
+    "explanation": "Dispose of unused medicines safely, for example through a take-back programme, and ask a pharmacist how. Medicines thrown into water end up in the environment.",
+    "hint": "A pharmacist knows the safe way."
+   },
+   "hi": {
+    "question": "घर में बची हुई या एक्सपायर हो चुकी दवाओं का क्या करें?",
+    "options": [
+     "अगली बीमारी के लिए रख लें",
+     "पड़ोसियों को दे दें",
+     "तालाब या नाली में फेंक दें",
+     "फार्मासिस्ट से सुरक्षित तरीके से निपटाने का तरीका पूछें"
+    ],
+    "explanation": "बची हुई दवाओं का सुरक्षित निपटान करें, जैसे दवा वापसी (टेक-बैक) कार्यक्रम के ज़रिए, और फार्मासिस्ट से तरीका पूछें। पानी में फेंकी गई दवाएं पर्यावरण में पहुँच जाती हैं।",
+    "hint": "फार्मासिस्ट सुरक्षित तरीका जानते हैं।"
+   }
+  },
+  {
+   "id": "AQ026",
+   "level": 2,
+   "topic": "T2_antibiotic_misuse",
+   "difficulty": "hard",
+   "type": "scenario",
+   "correct": "B",
+   "fact_ids": [
+    "F14",
+    "F08",
+    "F02"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Last year an antibiotic helped Arjun with a sore throat. This year his throat is sore again. What should he do?",
+    "options": [
+     "Buy the same antibiotic again",
+     "Let a doctor or health worker decide whether he needs any antibiotic",
+     "Ask the doctor to write the same one without an examination",
+     "Take any antibiotic he can find at home"
+    ],
+    "explanation": "Similar symptoms can have a different cause, and most sore throats are viral. Let the health professional decide whether an antibiotic is needed at all.",
+    "hint": "Last time's cure isn't automatically this time's cure."
+   },
+   "hi": {
+    "question": "पिछले साल एक एंटीबायोटिक से अर्जुन का गला ठीक हुआ था। इस साल उसके गले में फिर से खराश है। उसे क्या करना चाहिए?",
+    "options": [
+     "वही एंटीबायोटिक फिर से खरीद ले",
+     "डॉक्टर या स्वास्थ्य कार्यकर्ता को तय करने दे कि उसे कोई एंटीबायोटिक चाहिए भी या नहीं",
+     "डॉक्टर से बिना जाँच के वही दवा लिखवा ले",
+     "घर में जो भी एंटीबायोटिक मिले, वह ले ले"
+    ],
+    "explanation": "मिलते-जुलते लक्षणों का कारण अलग हो सकता है, और ज़्यादातर गले की खराश वायरस से होती है। एंटीबायोटिक की ज़रूरत है भी या नहीं, यह डॉक्टर या स्वास्थ्य कार्यकर्ता को तय करने दें।",
+    "hint": "पिछली बार का इलाज ज़रूरी नहीं कि इस बार भी सही हो।"
+   }
+  },
+  {
+   "id": "AQ027",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F19"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "How long should you scrub your hands with soap?",
+    "options": [
+     "At least 20 seconds",
+     "About 2 seconds",
+     "Only if they look dirty",
+     "No scrubbing is needed"
+    ],
+    "explanation": "Scrub with soap for at least 20 seconds - about as long as humming 'Happy Birthday' twice - then rinse under clean running water.",
+    "hint": "Longer than a quick splash of water."
+   },
+   "hi": {
+    "question": "साबुन से हाथ कितनी देर तक रगड़ने चाहिए?",
+    "options": [
+     "कम से कम 20 सेकंड",
+     "लगभग 2 सेकंड",
+     "सिर्फ़ तब जब हाथ गंदे दिखें",
+     "रगड़ने की ज़रूरत नहीं"
+    ],
+    "explanation": "साबुन से कम से कम 20 सेकंड तक हाथ रगड़ें — लगभग 'हैप्पी बर्थडे' गीत को दो बार गुनगुनाने जितना समय — फिर साफ़ बहते पानी से धो लें।",
+    "hint": "जल्दी से पानी डालने से ज़्यादा देर।"
+   }
+  },
+  {
+   "id": "AQ028",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "easy",
+   "type": "tf",
+   "correct": "A",
+   "fact_ids": [
+    "F18",
+    "F19"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Washing hands with soap helps prevent infections.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "True. Handwashing removes germs and helps stop infections spreading - which also means fewer antibiotics are needed.",
+    "hint": "Germs travel on hands."
+   },
+   "hi": {
+    "question": "साबुन से हाथ धोने से संक्रमण से बचाव होता है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "सही। हाथ धोने से कीटाणु हटते हैं और संक्रमण फैलने से रुकता है — जिसका मतलब है कि एंटीबायोटिक की ज़रूरत भी कम पड़ती है।",
+    "hint": "कीटाणु हाथों के ज़रिए फैलते हैं।"
+   }
+  },
+  {
+   "id": "AQ029",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F19",
+    "F23"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "If soap and water are not available, what is the best option for cleaning hands?",
+    "options": [
+     "Baby wipes",
+     "Perfume",
+     "Hand sanitizer with at least 60% alcohol",
+     "Wiping hands on clothes"
+    ],
+    "explanation": "Use a hand sanitizer with at least 60% alcohol. Baby wipes may make hands look clean but do not reliably remove germs.",
+    "hint": "Check the alcohol percentage."
+   },
+   "hi": {
+    "question": "अगर साबुन और पानी उपलब्ध न हों, तो हाथ साफ़ करने का सबसे अच्छा विकल्प क्या है?",
+    "options": [
+     "बेबी वाइप्स",
+     "परफ़्यूम",
+     "कम से कम 60% अल्कोहल वाला हैंड सैनिटाइज़र",
+     "कपड़ों पर हाथ पोंछना"
+    ],
+    "explanation": "कम से कम 60% अल्कोहल वाला सैनिटाइज़र इस्तेमाल करें। बेबी वाइप्स से हाथ साफ़ दिख सकते हैं, पर वे कीटाणुओं को भरोसेमंद तरीके से नहीं हटाते।",
+    "hint": "अल्कोहल की मात्रा देखें।"
+   }
+  },
+  {
+   "id": "AQ030",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "easy",
+   "type": "scenario",
+   "correct": "B",
+   "fact_ids": [
+    "F21",
+    "F41"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "You are about to sneeze in a crowded classroom. What should you do?",
+    "options": [
+     "Sneeze into the open air",
+     "Cover your mouth and nose with a tissue, then throw it away and clean your hands",
+     "Sneeze into your hands, then shake hands with a friend",
+     "Hold the sneeze in for an hour"
+    ],
+    "explanation": "Cover your mouth and nose with a tissue when you cough or sneeze, and clean your hands afterwards, to keep germs from spreading.",
+    "hint": "Block the germs before they fly."
+   },
+   "hi": {
+    "question": "भरी हुई कक्षा में आपको छींक आने वाली है। आपको क्या करना चाहिए?",
+    "options": [
+     "खुली हवा में छींक दें",
+     "टिशू से मुँह और नाक ढकें, फिर टिशू फेंककर हाथ साफ़ करें",
+     "हाथों में छींककर दोस्त से हाथ मिलाएं",
+     "एक घंटे तक छींक रोककर रखें"
+    ],
+    "explanation": "खाँसते या छींकते समय टिशू से मुँह और नाक ढकें, और बाद में हाथ साफ़ करें, ताकि कीटाणु न फैलें।",
+    "hint": "कीटाणुओं को उड़ने से पहले रोकें।"
+   }
+  },
+  {
+   "id": "AQ031",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F18"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "How does preventing infections help fight antibiotic resistance?",
+    "options": [
+     "Fewer infections mean fewer antibiotics are used",
+     "It makes bacteria stronger",
+     "It makes antibiotics expire",
+     "It has no effect on resistance"
+    ],
+    "explanation": "Preventing sickness reduces how often antibiotics are used, which lowers the chance that resistance develops.",
+    "hint": "Less sickness → less medicine."
+   },
+   "hi": {
+    "question": "संक्रमण से बचाव एंटीबायोटिक प्रतिरोध से लड़ने में कैसे मदद करता है?",
+    "options": [
+     "कम संक्रमण का मतलब है कम एंटीबायोटिक का इस्तेमाल",
+     "इससे बैक्टीरिया और ताकतवर हो जाते हैं",
+     "इससे एंटीबायोटिक एक्सपायर हो जाती हैं",
+     "इसका प्रतिरोध पर कोई असर नहीं होता"
+    ],
+    "explanation": "बीमारी से बचाव करने पर एंटीबायोटिक का इस्तेमाल कम होता है, जिससे प्रतिरोध पैदा होने की संभावना घटती है।",
+    "hint": "कम बीमारी → कम दवा।"
+   }
+  },
+  {
+   "id": "AQ032",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F22",
+    "F18",
+    "F31"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which of these can reduce the number of infections that might need antibiotics?",
+    "options": [
+     "Skipping handwashing to save time",
+     "Sharing towels with a sick person",
+     "Taking antibiotics 'just in case'",
+     "Getting recommended vaccines"
+    ],
+    "explanation": "Getting recommended vaccines prevents some infections, so fewer antibiotics are needed. Taking antibiotics 'just in case' only adds side effects and resistance.",
+    "hint": "Prevention is better than cure."
+   },
+   "hi": {
+    "question": "इनमें से कौन-सा कदम उन संक्रमणों की संख्या कम कर सकता है जिनमें एंटीबायोटिक की ज़रूरत पड़ सकती है?",
+    "options": [
+     "समय बचाने के लिए हाथ न धोना",
+     "बीमार व्यक्ति के साथ तौलिया साझा करना",
+     "'एहतियातन' एंटीबायोटिक लेना",
+     "सुझाए गए टीके लगवाना"
+    ],
+    "explanation": "सुझाए गए टीके लगवाने से कुछ संक्रमणों से बचाव होता है, इसलिए एंटीबायोटिक की ज़रूरत कम पड़ती है। 'एहतियातन' एंटीबायोटिक लेने से सिर्फ़ दुष्प्रभाव और प्रतिरोध बढ़ते हैं।",
+    "hint": "इलाज से बेहतर है बचाव।"
+   }
+  },
+  {
+   "id": "AQ033",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F41"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "When is it especially important to wash your hands?",
+    "options": [
+     "Before eating",
+     "After using the toilet",
+     "After blowing your nose, coughing or sneezing",
+     "All of these"
+    ],
+    "explanation": "Key times to wash hands include before eating, after using the toilet and after blowing your nose, coughing or sneezing.",
+    "hint": "More than one answer looks right..."
+   },
+   "hi": {
+    "question": "हाथ धोना खास तौर पर कब ज़रूरी है?",
+    "options": [
+     "खाना खाने से पहले",
+     "शौचालय इस्तेमाल करने के बाद",
+     "नाक साफ़ करने, खाँसने या छींकने के बाद",
+     "ये सभी"
+    ],
+    "explanation": "हाथ धोने के ज़रूरी समय में खाने से पहले, शौचालय के बाद और नाक साफ़ करने, खाँसने या छींकने के बाद शामिल हैं।",
+    "hint": "एक से ज़्यादा जवाब सही लग रहे हैं..."
+   }
+  },
+  {
+   "id": "AQ034",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "medium",
+   "type": "scenario",
+   "correct": "D",
+   "fact_ids": [
+    "F21",
+    "F02"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Your roommate has a bad cold. Which action best helps stop it spreading to you?",
+    "options": [
+     "Share their towel",
+     "Take antibiotics yourself so you don't catch it",
+     "Drink from their water bottle",
+     "Avoid close contact, wash hands often and keep unwashed hands away from your eyes, nose and mouth"
+    ],
+    "explanation": "Avoid close contact with people who have colds, wash your hands, and keep unwashed hands away from your eyes, nose and mouth. Antibiotics cannot prevent a cold.",
+    "hint": "Think about how cold germs travel."
+   },
+   "hi": {
+    "question": "आपके रूममेट को तेज़ सर्दी-ज़ुकाम है। इसे आप तक फैलने से रोकने में सबसे ज़्यादा क्या मदद करेगा?",
+    "options": [
+     "उसका तौलिया इस्तेमाल करें",
+     "खुद एंटीबायोटिक ले लें ताकि सर्दी न लगे",
+     "उसकी पानी की बोतल से पानी पिएं",
+     "नज़दीकी संपर्क से बचें, बार-बार हाथ धोएं और बिना धुले हाथों से आँख, नाक और मुँह न छुएं"
+    ],
+    "explanation": "सर्दी-ज़ुकाम वाले लोगों से नज़दीकी संपर्क से बचें, हाथ धोएं और बिना धुले हाथ आँख, नाक और मुँह से दूर रखें। एंटीबायोटिक सर्दी-ज़ुकाम को नहीं रोक सकतीं।",
+    "hint": "सोचें कि सर्दी के कीटाणु कैसे फैलते हैं।"
+   }
+  },
+  {
+   "id": "AQ035",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F02",
+    "F31"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Taking antibiotics while you are healthy will stop you from catching a cold.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. Colds are caused by viruses, and antibiotics do not work on viruses. Taking them without need only adds side effects and resistance.",
+    "hint": "What causes colds?"
+   },
+   "hi": {
+    "question": "स्वस्थ रहते हुए एंटीबायोटिक लेने से आपको सर्दी-ज़ुकाम नहीं होगा।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। सर्दी-ज़ुकाम वायरस से होता है, और एंटीबायोटिक वायरस पर काम नहीं करतीं। बिना ज़रूरत लेने से सिर्फ़ दुष्प्रभाव और प्रतिरोध का खतरा बढ़ता है।",
+    "hint": "सर्दी-ज़ुकाम किससे होता है?"
+   }
+  },
+  {
+   "id": "AQ036",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "B",
+   "fact_ids": [
+    "F20"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "According to the CDC, handwashing with soap can prevent roughly what share of diarrhoea-related illnesses?",
+    "options": [
+     "About 90%",
+     "About 30%",
+     "It prevents almost none",
+     "About 1%"
+    ],
+    "explanation": "Handwashing can prevent about 30% of diarrhoea-related illnesses and about 20% of respiratory infections such as colds.",
+    "hint": "Roughly one in three."
+   },
+   "hi": {
+    "question": "CDC के अनुसार साबुन से हाथ धोने से दस्त से जुड़ी लगभग कितनी बीमारियाँ रोकी जा सकती हैं?",
+    "options": [
+     "लगभग 90%",
+     "लगभग 30%",
+     "लगभग न के बराबर",
+     "लगभग 1%"
+    ],
+    "explanation": "हाथ धोने से दस्त से जुड़ी लगभग 30% बीमारियाँ और सर्दी-ज़ुकाम जैसे लगभग 20% साँस के संक्रमण रोके जा सकते हैं।",
+    "hint": "लगभग तीन में से एक।"
+   }
+  },
+  {
+   "id": "AQ037",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F24"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which of these helps antimicrobial resistance spread?",
+    "options": [
+     "Poor access to clean water, sanitation and hygiene",
+     "Regular handwashing",
+     "Getting recommended vaccines",
+     "Following prescriptions"
+    ],
+    "explanation": "Lack of clean water, sanitation and hygiene (WASH) and poor infection prevention help resistant germs spread.",
+    "hint": "Three options are good habits."
+   },
+   "hi": {
+    "question": "इनमें से कौन-सी चीज़ रोगाणुरोधी प्रतिरोध (AMR) को फैलने में मदद करती है?",
+    "options": [
+     "साफ़ पानी, स्वच्छता और सफ़ाई की कमी",
+     "नियमित रूप से हाथ धोना",
+     "सुझाए गए टीके लगवाना",
+     "डॉक्टर के पर्चे का पालन करना"
+    ],
+    "explanation": "साफ़ पानी, स्वच्छता और सफ़ाई (WASH) की कमी और संक्रमण से बचाव में लापरवाही प्रतिरोधी कीटाणुओं को फैलने में मदद करती है।",
+    "hint": "तीन विकल्प अच्छी आदतें हैं।"
+   }
+  },
+  {
+   "id": "AQ038",
+   "level": 3,
+   "topic": "T3_infection_prevention",
+   "difficulty": "hard",
+   "type": "tf",
+   "correct": "A",
+   "fact_ids": [
+    "F21"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Staying home when you are sick helps protect others from infection.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "True. Staying home when sick is one of the simple habits that keeps germs from spreading to others.",
+    "hint": "Fewer contacts, fewer chances to spread."
+   },
+   "hi": {
+    "question": "बीमार होने पर घर पर रहने से दूसरों को संक्रमण से बचाने में मदद मिलती है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "सही। बीमार होने पर घर पर रहना उन आसान आदतों में से एक है जो कीटाणुओं को दूसरों तक फैलने से रोकती हैं।",
+    "hint": "कम संपर्क, फैलने का कम मौका।"
+   }
+  },
+  {
+   "id": "AQ039",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F25"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "What is antibiotic resistance?",
+    "options": [
+     "When your body gets used to antibiotics",
+     "When antibiotics pass their expiry date",
+     "When bacteria change so that antibiotics no longer work against them",
+     "When you are allergic to antibiotics"
+    ],
+    "explanation": "Antibiotic resistance happens when bacteria change and stop responding to the antibiotics used to treat them.",
+    "hint": "Who changes - you or the germ?"
+   },
+   "hi": {
+    "question": "एंटीबायोटिक प्रतिरोध क्या है?",
+    "options": [
+     "जब आपका शरीर एंटीबायोटिक का आदी हो जाता है",
+     "जब एंटीबायोटिक की एक्सपायरी तारीख निकल जाती है",
+     "जब बैक्टीरिया बदल जाते हैं और एंटीबायोटिक उन पर असर नहीं करतीं",
+     "जब आपको एंटीबायोटिक से एलर्जी होती है"
+    ],
+    "explanation": "एंटीबायोटिक प्रतिरोध तब होता है जब बैक्टीरिया बदल जाते हैं और उन एंटीबायोटिक का उन पर असर होना बंद हो जाता है जिनसे उनका इलाज होता था।",
+    "hint": "बदलता कौन है — आप या कीटाणु?"
+   }
+  },
+  {
+   "id": "AQ040",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "easy",
+   "type": "scenario",
+   "correct": "A",
+   "fact_ids": [
+    "F25",
+    "F27",
+    "F35"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Kabir says, 'I've taken antibiotics many times, so my body is now resistant to them.' What is the correct fact?",
+    "options": [
+     "Bacteria, not the body, become resistant - and resistant bacteria can infect anyone",
+     "Resistance only happens to animals",
+     "He is right: bodies become resistant to antibiotics",
+     "Only his liver has become resistant"
+    ],
+    "explanation": "Bacteria - not people or animals - become resistant. In WHO's 2015 survey, about 3 in 4 people got this wrong.",
+    "hint": "Resistance lives in the germ."
+   },
+   "hi": {
+    "question": "कबीर कहता है, 'मैंने कई बार एंटीबायोटिक ली है, इसलिए अब मेरा शरीर उनके प्रति प्रतिरोधी हो गया है।' सही तथ्य क्या है?",
+    "options": [
+     "शरीर नहीं, बैक्टीरिया प्रतिरोधी बनते हैं — और प्रतिरोधी बैक्टीरिया किसी को भी संक्रमित कर सकते हैं",
+     "प्रतिरोध सिर्फ़ जानवरों में होता है",
+     "वह सही है: शरीर एंटीबायोटिक के प्रति प्रतिरोधी हो जाता है",
+     "सिर्फ़ उसका लिवर प्रतिरोधी हो गया है"
+    ],
+    "explanation": "प्रतिरोधी बैक्टीरिया होते हैं — इंसान या जानवर नहीं। WHO के 2015 के सर्वे में लगभग हर 4 में से 3 लोगों ने इसका गलत जवाब दिया था।",
+    "hint": "प्रतिरोध कीटाणु में होता है।"
+   }
+  },
+  {
+   "id": "AQ041",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "easy",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F26"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "What is the main driver of antimicrobial resistance?",
+    "options": [
+     "Drinking clean water",
+     "Getting vaccinated",
+     "Regular exercise",
+     "Misuse and overuse of antimicrobial medicines"
+    ],
+    "explanation": "Misuse and overuse of antimicrobials in humans, animals and plants are the main drivers of drug-resistant germs.",
+    "hint": "Three options are healthy habits."
+   },
+   "hi": {
+    "question": "रोगाणुरोधी प्रतिरोध (AMR) का मुख्य कारण क्या है?",
+    "options": [
+     "साफ़ पानी पीना",
+     "टीका लगवाना",
+     "नियमित व्यायाम",
+     "रोगाणुरोधी दवाओं का गलत और ज़रूरत से ज़्यादा इस्तेमाल"
+    ],
+    "explanation": "इंसानों, जानवरों और पौधों में रोगाणुरोधी दवाओं का गलत और ज़रूरत से ज़्यादा इस्तेमाल दवा-प्रतिरोधी कीटाणुओं का मुख्य कारण है।",
+    "hint": "तीन विकल्प सेहतमंद आदतें हैं।"
+   }
+  },
+  {
+   "id": "AQ042",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "medium",
+   "type": "scenario",
+   "correct": "B",
+   "fact_ids": [
+    "F27",
+    "F28"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Neha almost never takes antibiotics. Can she get an antibiotic-resistant infection?",
+    "options": [
+     "No - only people who take antibiotics often can",
+     "Yes - resistant bacteria can spread between people, and anyone can be infected",
+     "Only if she travels abroad",
+     "No - only older people can"
+    ],
+    "explanation": "Anyone, of any age, in any country can get an antibiotic-resistant infection, because resistant bacteria can spread from person to person.",
+    "hint": "Germs don't check who took antibiotics."
+   },
+   "hi": {
+    "question": "नेहा लगभग कभी एंटीबायोटिक नहीं लेती। क्या उसे एंटीबायोटिक-प्रतिरोधी संक्रमण हो सकता है?",
+    "options": [
+     "नहीं — सिर्फ़ बार-बार एंटीबायोटिक लेने वालों को हो सकता है",
+     "हाँ — प्रतिरोधी बैक्टीरिया लोगों के बीच फैल सकते हैं, और कोई भी संक्रमित हो सकता है",
+     "सिर्फ़ तब, जब वह विदेश जाए",
+     "नहीं — सिर्फ़ बुज़ुर्गों को हो सकता है"
+    ],
+    "explanation": "किसी भी उम्र के, किसी भी देश के किसी भी व्यक्ति को एंटीबायोटिक-प्रतिरोधी संक्रमण हो सकता है, क्योंकि प्रतिरोधी बैक्टीरिया एक व्यक्ति से दूसरे में फैल सकते हैं।",
+    "hint": "कीटाणु यह नहीं देखते कि किसने एंटीबायोटिक ली है।"
+   }
+  },
+  {
+   "id": "AQ043",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "medium",
+   "type": "tf",
+   "correct": "A",
+   "fact_ids": [
+    "F18",
+    "F28"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Good hand hygiene can help stop the spread of bacteria that are already resistant to antibiotics.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "True. Handwashing helps prevent people from getting sick with germs that are already resistant and difficult to treat.",
+    "hint": "Soap doesn't care whether a germ is resistant."
+   },
+   "hi": {
+    "question": "हाथों की अच्छी सफ़ाई उन बैक्टीरिया का फैलाव रोकने में मदद कर सकती है जो पहले से एंटीबायोटिक के प्रति प्रतिरोधी हैं।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "सही। हाथ धोने से लोग उन कीटाणुओं से बीमार होने से बच सकते हैं जो पहले से प्रतिरोधी हैं और जिनका इलाज मुश्किल है।",
+    "hint": "साबुन यह नहीं देखता कि कीटाणु प्रतिरोधी है या नहीं।"
+   }
+  },
+  {
+   "id": "AQ044",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F29"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Why are antibiotic-resistant infections dangerous?",
+    "options": [
+     "They heal faster than normal infections",
+     "They are always mild",
+     "They are harder to treat and make surgery and cancer treatment riskier",
+     "They only affect animals"
+    ],
+    "explanation": "AMR makes infections harder to treat and makes procedures such as surgery, caesarean sections and cancer chemotherapy much riskier.",
+    "hint": "Many treatments rely on antibiotics working."
+   },
+   "hi": {
+    "question": "एंटीबायोटिक-प्रतिरोधी संक्रमण खतरनाक क्यों हैं?",
+    "options": [
+     "ये आम संक्रमणों से जल्दी ठीक होते हैं",
+     "ये हमेशा हल्के होते हैं",
+     "इनका इलाज मुश्किल होता है और ये सर्जरी और कैंसर के इलाज को ज़्यादा जोखिम भरा बनाते हैं",
+     "ये सिर्फ़ जानवरों को होते हैं"
+    ],
+    "explanation": "AMR संक्रमणों का इलाज मुश्किल बना देता है और सर्जरी, सिज़ेरियन ऑपरेशन और कैंसर कीमोथेरेपी जैसे इलाज को काफ़ी जोखिम भरा बना देता है।",
+    "hint": "कई इलाज एंटीबायोटिक के असरदार रहने पर निर्भर हैं।"
+   }
+  },
+  {
+   "id": "AQ045",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "B",
+   "fact_ids": [
+    "F31",
+    "F26"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "In this game, 'superbugs' are bacteria that antibiotics can no longer easily kill. What helps create more of them?",
+    "options": [
+     "Washing hands with soap",
+     "Using antibiotics when they are not needed",
+     "Covering coughs and sneezes",
+     "Getting recommended vaccines"
+    ],
+    "explanation": "Every use of antibiotics can create resistant bacteria, so using them when they are not needed helps superbugs grow.",
+    "hint": "Three options are protective habits."
+   },
+   "hi": {
+    "question": "इस खेल में 'सुपरबग' वे बैक्टीरिया हैं जिन्हें एंटीबायोटिक अब आसानी से नहीं मार पातीं। इनके बढ़ने में किससे मदद मिलती है?",
+    "options": [
+     "साबुन से हाथ धोना",
+     "बिना ज़रूरत एंटीबायोटिक लेना",
+     "खाँसते-छींकते समय मुँह ढकना",
+     "सुझाए गए टीके लगवाना"
+    ],
+    "explanation": "एंटीबायोटिक का हर इस्तेमाल प्रतिरोधी बैक्टीरिया पैदा कर सकता है, इसलिए बिना ज़रूरत इस्तेमाल सुपरबग को बढ़ने में मदद करता है।",
+    "hint": "तीन विकल्प बचाव की आदतें हैं।"
+   }
+  },
+  {
+   "id": "AQ046",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F30"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "What happens when common antibiotics stop working against an infection?",
+    "options": [
+     "Doctors may need costlier, harder-to-get 'last-resort' medicines",
+     "Any painkiller can be used instead",
+     "Nothing changes",
+     "The infection always goes away by itself"
+    ],
+    "explanation": "When first-line antibiotics fail, more expensive last-resort medicines are needed. These are often hard to access, and resistance also means longer hospital stays.",
+    "hint": "Think about cost and availability."
+   },
+   "hi": {
+    "question": "जब आम एंटीबायोटिक किसी संक्रमण पर काम करना बंद कर देती हैं, तब क्या होता है?",
+    "options": [
+     "डॉक्टरों को महँगी और मुश्किल से मिलने वाली 'आखिरी विकल्प' वाली दवाओं की ज़रूरत पड़ सकती है",
+     "उसकी जगह कोई भी दर्द-निवारक इस्तेमाल किया जा सकता है",
+     "कुछ नहीं बदलता",
+     "संक्रमण हमेशा अपने आप ठीक हो जाता है"
+    ],
+    "explanation": "जब पहली पसंद की एंटीबायोटिक काम नहीं करतीं, तो महँगी 'आखिरी विकल्प' वाली दवाओं की ज़रूरत पड़ती है। ये अक्सर आसानी से नहीं मिलतीं, और प्रतिरोध की वजह से अस्पताल में ज़्यादा दिन रुकना पड़ता है।",
+    "hint": "कीमत और उपलब्धता के बारे में सोचें।"
+   }
+  },
+  {
+   "id": "AQ047",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F34"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Antibiotic resistance is a problem in other countries but not in India.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. WHO's 2025 report found resistance highest in the South-East Asia Region, which includes India - about 1 in 3 reported infections were resistant in 2023.",
+    "hint": "Recall WHO's 2025 surveillance report."
+   },
+   "hi": {
+    "question": "एंटीबायोटिक प्रतिरोध दूसरे देशों की समस्या है, भारत की नहीं।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। WHO की 2025 की रिपोर्ट के अनुसार प्रतिरोध दक्षिण-पूर्व एशिया क्षेत्र में सबसे ज़्यादा था, जिसमें भारत भी शामिल है — 2023 में लगभग 3 में से 1 रिपोर्ट किया गया संक्रमण प्रतिरोधी था।",
+    "hint": "WHO की 2025 की निगरानी रिपोर्ट याद करें।"
+   }
+  },
+  {
+   "id": "AQ048",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F34"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "WHO's 2025 surveillance report found that, worldwide in 2023, about how many lab-confirmed bacterial infections were resistant to antibiotic treatment?",
+    "options": [
+     "About 1 in 100",
+     "Zero - no infections were resistant",
+     "About 1 in 6",
+     "About 9 in 10"
+    ],
+    "explanation": "About one in six lab-confirmed bacterial infections worldwide in 2023 were resistant to antibiotics.",
+    "hint": "Somewhere between 10% and 20%."
+   },
+   "hi": {
+    "question": "WHO की 2025 की निगरानी रिपोर्ट के अनुसार, 2023 में दुनिया भर में लैब से पुष्टि हुए बैक्टीरियल संक्रमणों में से लगभग कितने एंटीबायोटिक इलाज के प्रति प्रतिरोधी थे?",
+    "options": [
+     "लगभग 100 में से 1",
+     "शून्य — कोई संक्रमण प्रतिरोधी नहीं था",
+     "लगभग 6 में से 1",
+     "लगभग 10 में से 9"
+    ],
+    "explanation": "2023 में दुनिया भर में लैब से पुष्टि हुए लगभग हर छह में से एक बैक्टीरियल संक्रमण एंटीबायोटिक के प्रति प्रतिरोधी था।",
+    "hint": "10% और 20% के बीच।"
+   }
+  },
+  {
+   "id": "AQ049",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F34"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "In WHO's South-East Asia Region, which includes India, about how many reported infections were resistant in 2023?",
+    "options": [
+     "Zero - no infections were resistant",
+     "About 1 in 50",
+     "About 1 in 1,000",
+     "About 1 in 3"
+    ],
+    "explanation": "Resistance was highest in the South-East Asia and Eastern Mediterranean regions, where about 1 in 3 reported infections were resistant.",
+    "hint": "Higher than the global 1 in 6."
+   },
+   "hi": {
+    "question": "WHO के दक्षिण-पूर्व एशिया क्षेत्र में, जिसमें भारत शामिल है, 2023 में लगभग कितने रिपोर्ट किए गए संक्रमण प्रतिरोधी थे?",
+    "options": [
+     "शून्य — कोई संक्रमण प्रतिरोधी नहीं था",
+     "लगभग 50 में से 1",
+     "लगभग 1,000 में से 1",
+     "लगभग 3 में से 1"
+    ],
+    "explanation": "प्रतिरोध दक्षिण-पूर्व एशिया और पूर्वी भूमध्यसागर क्षेत्रों में सबसे ज़्यादा था, जहाँ लगभग 3 में से 1 रिपोर्ट किया गया संक्रमण प्रतिरोधी था।",
+    "hint": "दुनिया के औसत (6 में से 1) से ज़्यादा।"
+   }
+  },
+  {
+   "id": "AQ050",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F36"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Why is antimicrobial resistance called a 'One Health' problem?",
+    "options": [
+     "Because it only affects hospitals",
+     "Because only one country is affected",
+     "Because only one medicine is affected",
+     "Because the health of people, animals, plants and the environment is connected"
+    ],
+    "explanation": "One Health recognises that the health of people, animals, plants and the environment is connected, so actions in one sector affect the others. 'One Health, one action: Prevent AMR now' is the theme of World AMR Awareness Week 2026.",
+    "hint": "Think farms, rivers and hospitals together."
+   },
+   "hi": {
+    "question": "रोगाणुरोधी प्रतिरोध को 'वन हेल्थ' (एक स्वास्थ्य) समस्या क्यों कहा जाता है?",
+    "options": [
+     "क्योंकि यह सिर्फ़ अस्पतालों को प्रभावित करता है",
+     "क्योंकि सिर्फ़ एक देश प्रभावित होता है",
+     "क्योंकि सिर्फ़ एक दवा प्रभावित होती है",
+     "क्योंकि इंसानों, जानवरों, पौधों और पर्यावरण का स्वास्थ्य आपस में जुड़ा है"
+    ],
+    "explanation": "'वन हेल्थ' का मतलब है कि इंसानों, जानवरों, पौधों और पर्यावरण का स्वास्थ्य आपस में जुड़ा है, इसलिए एक क्षेत्र के कदम दूसरों पर असर डालते हैं। विश्व AMR जागरूकता सप्ताह 2026 का विषय है — 'वन हेल्थ, वन एक्शन: अभी AMR रोकें'।",
+    "hint": "खेत, नदियाँ और अस्पताल — सबको एक साथ सोचें।"
+   }
+  },
+  {
+   "id": "AQ051",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "B",
+   "fact_ids": [
+    "F32"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "According to the GRAM study in The Lancet, about how many deaths worldwide in 2021 were directly caused by bacterial antimicrobial resistance?",
+    "options": [
+     "Zero",
+     "About 1.14 million",
+     "About 100 million",
+     "About 1,000"
+    ],
+    "explanation": "The study estimated 1.14 million deaths directly due to bacterial AMR in 2021, and AMR played a role in 4.71 million deaths.",
+    "hint": "More than a million."
+   },
+   "hi": {
+    "question": "द लैंसेट में छपे GRAM अध्ययन के अनुसार, 2021 में दुनिया भर में लगभग कितनी मौतें सीधे बैक्टीरियल रोगाणुरोधी प्रतिरोध की वजह से हुईं?",
+    "options": [
+     "शून्य",
+     "लगभग 11.4 लाख",
+     "लगभग 10 करोड़",
+     "लगभग 1,000"
+    ],
+    "explanation": "अध्ययन के अनुमान के अनुसार 2021 में 11.4 लाख मौतें सीधे बैक्टीरियल AMR के कारण हुईं, और 47.1 लाख मौतों में AMR की भूमिका थी।",
+    "hint": "दस लाख से ज़्यादा।"
+   }
+  },
+  {
+   "id": "AQ052",
+   "level": 4,
+   "topic": "T4_amr",
+   "difficulty": "hard",
+   "type": "tf",
+   "correct": "B",
+   "fact_ids": [
+    "F37"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Giving antibiotics to healthy farm animals to make them grow faster is a good practice.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "explanation": "False. WHO advises giving antibiotics to animals only under veterinary supervision, and not using them for growth promotion or to prevent disease in healthy animals.",
+    "hint": "Remember One Health."
+   },
+   "hi": {
+    "question": "स्वस्थ पशुओं को जल्दी बढ़ाने के लिए एंटीबायोटिक देना अच्छी प्रथा है।",
+    "options": [
+     "सही",
+     "गलत"
+    ],
+    "explanation": "गलत। WHO की सलाह है कि जानवरों को एंटीबायोटिक सिर्फ़ पशु-चिकित्सक की देखरेख में दी जाएं, और स्वस्थ जानवरों को बढ़ाने या उनमें बीमारी से बचाव के लिए इनका इस्तेमाल न किया जाए।",
+    "hint": "'वन हेल्थ' याद रखें।"
+   }
+  },
+  {
+   "id": "AQ053",
+   "level": 5,
+   "topic": "T5_mixed_champion",
+   "difficulty": "medium",
+   "type": "scenario",
+   "correct": "A",
+   "fact_ids": [
+    "F02",
+    "F07",
+    "F09"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Your grandmother asks the chemist for 'a strong antibiotic' for her cold. As an AMR Champion, what do you say?",
+    "options": [
+     "\"Antibiotics don't treat colds. Let's see a doctor or health worker if you feel worse or are worried.\"",
+     "\"Yes, take the strongest one available.\"",
+     "\"Take it for just one day.\"",
+     "\"Take mine instead.\""
+    ],
+    "explanation": "Colds are viral, antibiotics don't help them, and antibiotics should only be used when prescribed by a qualified health professional.",
+    "hint": "Combine what you learned in Levels 1 and 2."
+   },
+   "hi": {
+    "question": "आपकी दादी सर्दी-ज़ुकाम के लिए केमिस्ट से 'तेज़ एंटीबायोटिक' माँगती हैं। एक AMR चैंपियन के रूप में आप क्या कहेंगे?",
+    "options": [
+     "\"एंटीबायोटिक सर्दी-ज़ुकाम का इलाज नहीं करतीं। अगर तबीयत बिगड़े या चिंता हो, तो चलिए डॉक्टर या स्वास्थ्य कार्यकर्ता को दिखाते हैं।\"",
+     "\"हाँ, सबसे तेज़ वाली ले लीजिए।\"",
+     "\"बस एक दिन के लिए ले लीजिए।\"",
+     "\"मेरी वाली ले लीजिए।\""
+    ],
+    "explanation": "सर्दी-ज़ुकाम वायरस से होता है, इसमें एंटीबायोटिक मदद नहीं करतीं, और एंटीबायोटिक सिर्फ़ योग्य डॉक्टर या स्वास्थ्य पेशेवर के लिखने पर ही लेनी चाहिए।",
+    "hint": "लेवल 1 और 2 में सीखी बातें जोड़ें।"
+   }
+  },
+  {
+   "id": "AQ054",
+   "level": 5,
+   "topic": "T5_mixed_champion",
+   "difficulty": "medium",
+   "type": "mcq",
+   "correct": "C",
+   "fact_ids": [
+    "F09",
+    "F18",
+    "F22",
+    "F07"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "Which action does NOT help prevent antibiotic resistance?",
+    "options": [
+     "Getting recommended vaccines",
+     "Taking antibiotics only when prescribed",
+     "Keeping leftover antibiotics for next time",
+     "Washing hands with soap"
+    ],
+    "explanation": "Never save or use leftover antibiotics. Handwashing, vaccination and prescribed-only use all help keep antibiotics working.",
+    "hint": "Look for the habit from Level 2's trap."
+   },
+   "hi": {
+    "question": "इनमें से कौन-सा कदम एंटीबायोटिक प्रतिरोध को रोकने में मदद नहीं करता?",
+    "options": [
+     "सुझाए गए टीके लगवाना",
+     "एंटीबायोटिक सिर्फ़ पर्चे पर लेना",
+     "बची हुई एंटीबायोटिक अगली बार के लिए रखना",
+     "साबुन से हाथ धोना"
+    ],
+    "explanation": "बची हुई एंटीबायोटिक न बचाएं, न इस्तेमाल करें। हाथ धोना, टीके लगवाना और सिर्फ़ पर्चे पर दवा लेना — ये सब एंटीबायोटिक को असरदार बनाए रखने में मदद करते हैं।",
+    "hint": "लेवल 2 के 'जाल' वाली आदत ढूँढें।"
+   }
+  },
+  {
+   "id": "AQ055",
+   "level": 5,
+   "topic": "T5_mixed_champion",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "D",
+   "fact_ids": [
+    "F38",
+    "F36"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "World AMR Awareness Week is observed every year on which dates?",
+    "options": [
+     "1-7 January",
+     "15-21 August",
+     "1-7 April",
+     "18-24 November"
+    ],
+    "explanation": "World AMR Awareness Week runs from 18 to 24 November each year. The 2026 theme is 'One Health, one action: Prevent AMR now'.",
+    "hint": "It falls in the second half of the year."
+   },
+   "hi": {
+    "question": "विश्व AMR जागरूकता सप्ताह हर साल किन तारीखों पर मनाया जाता है?",
+    "options": [
+     "1-7 जनवरी",
+     "15-21 अगस्त",
+     "1-7 अप्रैल",
+     "18-24 नवंबर"
+    ],
+    "explanation": "विश्व AMR जागरूकता सप्ताह हर साल 18 से 24 नवंबर तक मनाया जाता है। 2026 का विषय है 'वन हेल्थ, वन एक्शन: अभी AMR रोकें'।",
+    "hint": "यह साल के दूसरे हिस्से में आता है।"
+   }
+  },
+  {
+   "id": "AQ056",
+   "level": 5,
+   "topic": "T5_mixed_champion",
+   "difficulty": "hard",
+   "type": "mcq",
+   "correct": "A",
+   "fact_ids": [
+    "F39"
+   ],
+   "review_status": "pending_review",
+   "en": {
+    "question": "India's second National Action Plan on AMR (NAP-AMR 2.0) covers which years?",
+    "options": [
+     "2025-2029",
+     "It has no time frame",
+     "2030-2040",
+     "2017-2021"
+    ],
+    "explanation": "NAP-AMR 2.0 is a five-year plan for 2025-2029, launched on 18 November 2025. The first plan covered 2017-2021.",
+    "hint": "It was launched in November 2025."
+   },
+   "hi": {
+    "question": "भारत की AMR पर दूसरी राष्ट्रीय कार्य योजना (NAP-AMR 2.0) किन वर्षों के लिए है?",
+    "options": [
+     "2025-2029",
+     "इसकी कोई समय-सीमा नहीं है",
+     "2030-2040",
+     "2017-2021"
+    ],
+    "explanation": "NAP-AMR 2.0 वर्ष 2025-2029 के लिए पाँच साल की योजना है, जिसे 18 नवंबर 2025 को शुरू किया गया। पहली योजना 2017-2021 के लिए थी।",
+    "hint": "इसे नवंबर 2025 में शुरू किया गया था।"
+   }
+  }
+ ]
+}

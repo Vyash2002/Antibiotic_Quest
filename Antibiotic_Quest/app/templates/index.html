@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antibiotic Quest</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='22' fill='%23d6457a'/%3E%3Ccircle cx='25' cy='29' r='5' fill='white'/%3E%3Ccircle cx='39' cy='29' r='5' fill='white'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand" id="brand">Antibiotic Quest</span>
+    <span class="level-label" id="levelLabel" hidden></span>
+    <div class="seg" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="hi" aria-pressed="false" lang="hi">हिंदी</button>
+    </div>
+    <button type="button" class="icon-btn" id="soundBtn" aria-pressed="false">Sound off</button>
+  </header>
+
+  <main id="screen" class="screen" tabindex="-1"></main>
+
+  <section id="game" class="game" hidden>
+    <div class="board-wrap"><div id="board"></div></div>
+    <aside class="panel" aria-label="Game controls">
+      <div class="die-box">
+        <div class="die" id="die" aria-hidden="true">–</div>
+        <button type="button" class="btn" id="rollBtn">Roll the die</button>
+      </div>
+      <div>
+        <div class="stat"><span id="pointsLabel">Points</span><b id="points">0</b></div>
+      </div>
+      <div>
+        <div class="stat"><span id="bugsLabel">Superbugs cleared</span><span id="bugCount"></span></div>
+        <div class="bug-row" id="bugRow"></div>
+      </div>
+      <div class="tip" id="tip" aria-live="polite"></div>
+      <div class="end"><button type="button" class="link-btn" id="endBtn">End game</button></div>
+    </aside>
+  </section>
+
+  <div id="quiz" class="overlay" hidden>
+    <div class="qcard" role="dialog" aria-modal="true" aria-labelledby="qtext">
+      <div class="qhead">
+        <span id="qcount"></span>
+        <button type="button" class="icon-btn" id="listenBtn">Listen</button>
+      </div>
+      <p class="qtext" id="qtext" tabindex="-1"></p>
+      <div class="options" id="qoptions"></div>
+      <div class="hint-row" id="hintRow">
+        <button type="button" class="link-btn" id="hintBtn">Show hint</button>
+        <div class="hint-text" id="hintText" hidden></div>
+      </div>
+      <div class="feedback" id="feedback" hidden aria-live="polite"></div>
+      <div class="qactions"><button type="button" class="btn" id="qnext" hidden>Continue</button></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='vendor/phaser.min.js') }}"></script>
+  <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

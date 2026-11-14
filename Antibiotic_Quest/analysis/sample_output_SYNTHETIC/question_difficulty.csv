@@ -1,0 +1,57 @@
+question_id,attempts,error_rate_pct,hint_rate,median_rt_ms,most_chosen_wrong_option,wrong_option_text,level,topic,question
+AQ037,19,78.9,0.2631578947368421,9102.0,B,Regular handwashing,3,Infection prevention,Which of these helps antimicrobial resistance spread?
+AQ026,13,76.9,0.0,10159.0,A,Buy the same antibiotic again,2,Antibiotic misuse,Last year an antibiotic helped Arjun with a sore throat. This year his throat is sore again. What should he do?
+AQ024,21,76.2,0.14285714285714285,9054.0,A,Switch to her brother's antibiotics,2,Antibiotic misuse,Priya's prescribed antibiotic is giving her an upset stomach. What should she do?
+AQ012,21,76.2,0.047619047619047616,8254.0,B,False,1,Bacteria vs viruses,"Even when an antibiotic is not needed, it can still cause side effects."
+AQ056,30,73.3,0.03333333333333333,7854.0,B,It has no time frame,5,Final level (mixed),India's second National Action Plan on AMR (NAP-AMR 2.0) covers which years?
+AQ050,11,72.7,0.0,10377.0,A,Because it only affects hospitals,4,AMR / superbugs,Why is antimicrobial resistance called a 'One Health' problem?
+AQ019,16,68.8,0.125,9277.5,B,Buy them because the chemist suggested it,2,Antibiotic misuse,A chemist offers to sell Rahul antibiotics for his cough without a prescription. What is the safest choice?
+AQ006,15,66.7,0.13333333333333333,8500.0,B,A parasite,1,Bacteria vs viruses,Flu (influenza) is caused by:
+AQ049,15,66.7,0.2,7303.0,A,Zero - no infections were resistant,4,AMR / superbugs,"In WHO's South-East Asia Region, which includes India, about how many reported infections were resistant in 2023?"
+AQ035,18,66.7,0.2222222222222222,9362.0,A,True,3,Infection prevention,Taking antibiotics while you are healthy will stop you from catching a cold.
+AQ042,12,66.7,0.08333333333333333,7246.0,A,No - only people who take antibiotics often can,4,AMR / superbugs,Neha almost never takes antibiotics. Can she get an antibiotic-resistant infection?
+AQ046,9,66.7,0.1111111111111111,10526.0,B,Any painkiller can be used instead,4,AMR / superbugs,What happens when common antibiotics stop working against an infection?
+AQ011,18,66.7,0.2777777777777778,6920.5,A,"""Okay, I'll buy one from the chemist.""",1,Bacteria vs viruses,"Aman has a mild sore throat and cough. His friend says, 'Just take an antibiotic - it works for everything.' What is the best reply?"
+AQ023,21,66.7,0.2857142857142857,8750.0,A,It is not risky at all,2,Antibiotic misuse,Why is taking someone else's antibiotics risky?
+AQ047,15,66.7,0.3333333333333333,7581.0,A,True,4,AMR / superbugs,Antibiotic resistance is a problem in other countries but not in India.
+AQ052,12,66.7,0.08333333333333333,7902.5,A,True,4,AMR / superbugs,Giving antibiotics to healthy farm animals to make them grow faster is a good practice.
+AQ020,14,64.3,0.21428571428571427,8100.5,A,"Stop as soon as you feel a little better, without telling anyone",2,Antibiotic misuse,"If a doctor prescribes you antibiotics, how should you take them?"
+AQ034,21,61.9,0.19047619047619047,8614.0,A,Share their towel,3,Infection prevention,Your roommate has a bad cold. Which action best helps stop it spreading to you?
+AQ025,13,61.5,0.23076923076923078,11970.0,A,Keep them for the next illness,2,Antibiotic misuse,What should you do with unused or expired medicines at home?
+AQ018,13,61.5,0.15384615384615385,8487.0,A,It is a herbal medicine,2,Antibiotic misuse,"In India, what does a vertical red line on a medicine strip mean?"
+AQ036,18,61.1,0.16666666666666666,9261.0,A,About 90%,3,Infection prevention,"According to the CDC, handwashing with soap can prevent roughly what share of diarrhoea-related illnesses?"
+AQ048,15,60.0,0.2,8044.0,A,About 1 in 100,4,AMR / superbugs,"WHO's 2025 surveillance report found that, worldwide in 2023, about how many lab-confirmed bacterial infections were resistant to antibiotic treatment?"
+AQ010,17,58.8,0.11764705882352941,9169.0,A,Antibiotics prevent colds,1,Bacteria vs viruses,Which statement is correct?
+AQ038,19,57.9,0.10526315789473684,8566.0,B,False,3,Infection prevention,Staying home when you are sick helps protect others from infection.
+AQ033,18,55.6,0.16666666666666666,8645.0,A,Before eating,3,Infection prevention,When is it especially important to wash your hands?
+AQ008,20,55.0,0.1,9509.0,B,Antibiotics → viruses,1,Bacteria vs viruses,Which medicine is matched with the right type of germ?
+AQ051,13,53.8,0.0,7440.0,A,Zero,4,AMR / superbugs,"According to the GRAM study in The Lancet, about how many deaths worldwide in 2021 were directly caused by bacterial antimicrobial resistance?"
+AQ055,30,53.3,0.16666666666666666,7978.5,A,1-7 January,5,Final level (mixed),World AMR Awareness Week is observed every year on which dates?
+AQ022,26,50.0,0.11538461538461539,7855.0,B,None - antibiotics have no side effects,2,Antibiotic misuse,Which of these is a common side effect of antibiotics?
+AQ009,24,50.0,0.125,8591.5,A,True,1,Bacteria vs viruses,Taking an antibiotic for a viral infection helps you recover faster.
+AQ040,12,50.0,0.25,12960.5,B,Resistance only happens to animals,4,AMR / superbugs,"Kabir says, 'I've taken antibiotics many times, so my body is now resistant to them.' What is the correct fact?"
+AQ005,19,47.4,0.2631578947368421,9847.0,A,True,1,Bacteria vs viruses,"If your mucus is thick, yellow or green, you need antibiotics."
+AQ045,15,46.7,0.26666666666666666,9702.0,C,Covering coughs and sneezes,4,AMR / superbugs,"In this game, 'superbugs' are bacteria that antibiotics can no longer easily kill. What helps create more of them?"
+AQ053,30,46.7,0.1,8525.0,B,"""Yes, take the strongest one available.""",5,Final level (mixed),"Your grandmother asks the chemist for 'a strong antibiotic' for her cold. As an AMR Champion, what do you say?"
+AQ021,16,43.8,0.125,8635.0,A,True,2,Antibiotic misuse,Keeping some antibiotics aside 'for next time' is a good habit.
+AQ054,30,43.3,0.23333333333333334,8760.0,B,Taking antibiotics only when prescribed,5,Final level (mixed),Which action does NOT help prevent antibiotic resistance?
+AQ041,14,42.9,0.07142857142857142,10209.0,A,Drinking clean water,4,AMR / superbugs,What is the main driver of antimicrobial resistance?
+AQ007,21,42.9,0.14285714285714285,12099.0,B,False,1,Bacteria vs viruses,Most colds get better on their own in about one to two weeks.
+AQ043,15,40.0,0.06666666666666667,8977.0,B,False,4,AMR / superbugs,Good hand hygiene can help stop the spread of bacteria that are already resistant to antibiotics.
+AQ004,21,38.1,0.14285714285714285,7802.0,A,Take the leftover antibiotics at home,1,Bacteria vs viruses,Riya has had a runny nose and sneezing for two days. What is the safest thing to do?
+AQ044,16,37.5,0.0625,9491.5,A,They heal faster than normal infections,4,AMR / superbugs,Why are antibiotic-resistant infections dangerous?
+AQ017,16,37.5,0.0625,8992.0,A,Buy antibiotics from another chemist,2,Antibiotic misuse,A doctor tells Meena she has a viral infection and does not need antibiotics. What should Meena do?
+AQ029,14,35.7,0.07142857142857142,9962.5,A,Baby wipes,3,Infection prevention,"If soap and water are not available, what is the best option for cleaning hands?"
+AQ014,17,35.3,0.0,9468.0,B,Take the leftover tablets,2,Antibiotic misuse,You have leftover antibiotics from last year and feel sick again with similar symptoms. What should you do?
+AQ039,15,33.3,0.2,9128.0,A,When your body gets used to antibiotics,4,AMR / superbugs,What is antibiotic resistance?
+AQ015,15,33.3,0.2,8899.0,C,Whenever you feel unwell,2,Antibiotic misuse,When should you use antibiotics?
+AQ031,15,33.3,0.06666666666666667,8862.0,B,It makes bacteria stronger,3,Infection prevention,How does preventing infections help fight antibiotic resistance?
+AQ003,19,31.6,0.15789473684210525,9181.0,B,Urinary tract infection,1,Bacteria vs viruses,Which of these illnesses is usually caused by a virus?
+AQ032,7,28.6,0.14285714285714285,10142.0,A,Skipping handwashing to save time,3,Infection prevention,Which of these can reduce the number of infections that might need antibiotics?
+AQ028,11,27.3,0.18181818181818182,8195.0,B,False,3,Infection prevention,Washing hands with soap helps prevent infections.
+AQ016,15,26.7,0.4,11620.0,A,True,2,Antibiotic misuse,"Sharing your antibiotics with a family member who has the same symptoms saves a doctor's visit, so it is a good idea."
+AQ001,17,23.5,0.29411764705882354,9668.0,A,True,1,Bacteria vs viruses,Antibiotics are the right medicine for illnesses caused by viruses.
+AQ027,17,23.5,0.17647058823529413,9344.0,B,About 2 seconds,3,Infection prevention,How long should you scrub your hands with soap?
+AQ030,19,21.1,0.15789473684210525,9092.0,C,"Sneeze into your hands, then shake hands with a friend",3,Infection prevention,You are about to sneeze in a crowded classroom. What should you do?
+AQ013,10,20.0,0.1,8675.5,A,"Take them, since the symptoms look the same",2,Antibiotic misuse,"Your friend offers you the antibiotics her doctor gave her, because your symptoms 'look the same'. What should you do?"
+AQ002,12,16.7,0.16666666666666666,11515.0,A,Viruses,1,Bacteria vs viruses,Antibiotics are medicines used to treat infections caused by:

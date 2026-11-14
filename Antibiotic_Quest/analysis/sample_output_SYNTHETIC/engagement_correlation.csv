@@ -1,0 +1,11 @@
+engagement_measure,outcome,spearman_rho,p,n,p_holm
+levels_completed,post_knowledge,0.342,0.030631890866312995,40,0.21442323606419098
+levels_completed,knowledge_change,0.021,0.8973479386893459,40,1.0
+game_accuracy,post_knowledge,0.678,1.571843743102957e-06,40,1.4146593687926612e-05
+game_accuracy,knowledge_change,0.044,0.7887736606437047,40,1.0
+total_time_sec,post_knowledge,0.075,0.6475645084175989,40,1.0
+total_time_sec,knowledge_change,0.075,0.6469857093754048,40,1.0
+points,post_knowledge,0.703,4.2336034070384903e-07,40,4.233603407038491e-06
+points,knowledge_change,0.037,0.8187697263548179,40,1.0
+hints,post_knowledge,0.45,0.0036063684256033403,40,0.028850947404826723
+hints,knowledge_change,0.243,0.1303146121037627,40,0.7818876726225761

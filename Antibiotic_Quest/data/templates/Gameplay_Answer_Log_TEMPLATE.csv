@@ -1,0 +1,1 @@
+﻿event_id,participant_id,session_id,is_synthetic,level,question_id,language,attempt_no,selected_option,correct_option,is_correct,hint_used,audio_played,response_time_ms,points_awarded,timestamp

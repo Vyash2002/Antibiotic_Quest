@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Antibiotic Quest admin</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='22' fill='%234a2c7a'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">Antibiotic Quest admin</span>
+    <a href="/" class="muted">Open the game</a>
+  </header>
+
+  <main class="admin">
+    <section id="login">
+      <h2>Sign in</h2>
+      <p class="muted">Enter the admin token from your <code>.env</code> file (default <code>change-me</code>).</p>
+      <form id="loginForm" class="row">
+        <input type="password" id="token" placeholder="Admin token" autocomplete="current-password" required>
+        <button class="btn" type="submit">Open admin</button>
+      </form>
+      <p class="error" id="loginErr" hidden></p>
+    </section>
+
+    <div id="app" hidden>
+      <nav class="tabs" role="tablist">
+        <button role="tab" data-tab="overview" aria-selected="true">Overview</button>
+        <button role="tab" data-tab="review" aria-selected="false">Review questions</button>
+        <button role="tab" data-tab="drafts" aria-selected="false">AI drafts</button>
+        <button role="tab" data-tab="data" aria-selected="false">Data and analysis</button>
+      </nav>
+
+      <section data-panel="overview">
+        <div class="stats" id="stats"></div>
+        <h3>Approved questions per level</h3>
+        <p class="muted">Levels 1-4 need at least 5 approved questions each; level 5 needs 4 of its own plus 4 from earlier levels.</p>
+        <table class="t" id="levelTable"></table>
+      </section>
+
+      <section data-panel="review" hidden>
+        <div class="row">
+          <label>Reviewer name <input id="reviewer" placeholder="e.g. Dr. A. Sharma"></label>
+          <label>Status
+            <select id="fStatus">
+              <option value="pending_review">Pending review</option>
+              <option value="">All</option>
+              <option value="approved">Approved</option>
+              <option value="needs_edit">Needs edit</option>
+              <option value="rejected">Rejected</option>
+            </select></label>
+          <label>Level
+            <select id="fLevel"><option value="">All</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+          <span class="muted" id="qCount"></span>
+        </div>
+        <p class="muted">Check each question against its cited fact, then approve it, mark it for editing, or reject it. To change wording, export the question bank (Data tab), edit the CSV, save it as <code>data/AMR_Question_Bank.csv</code> and run <code>python db/init_db.py --reload-questions</code>.</p>
+        <div id="qList"></div>
+      </section>
+
+      <section data-panel="drafts" hidden>
+        <p>Ask Gemini to draft new questions from the verified facts for one level. Drafts that pass the automatic checks are added as <b>pending review</b>; they appear in the game only after someone approves them.</p>
+        <p class="muted" id="geminiStatus"></p>
+        <form id="draftForm" class="row">
+          <label>Level <select id="dLevel"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+          <label>Difficulty <select id="dDiff"><option>easy</option><option selected>medium</option><option>hard</option></select></label>
+          <label>How many <input id="dN" type="number" min="1" max="10" value="3"></label>
+          <button class="btn" type="submit" id="dGo">Draft questions</button>
+        </form>
+        <div id="draftResult"></div>
+        <h3>Recent runs</h3>
+        <table class="t" id="runTable"></table>
+      </section>
+
+      <section data-panel="data" hidden>
+        <h3>Download data</h3>
+        <label class="check"><input type="checkbox" id="incTest"> <span>Include team test runs (IDs starting with T)</span></label>
+        <div class="row" style="margin-top:12px">
+          <button class="btn secondary" data-export="pre_post">Pre/post test results</button>
+          <button class="btn secondary" data-export="answer_log">Gameplay answer log</button>
+          <button class="btn secondary" data-export="gameplay">Gameplay analytics</button>
+          <button class="btn secondary" data-export="question_bank">Question bank (with reviews)</button>
+        </div>
+        <h3 style="margin-top:32px">Run the analysis</h3>
+        <p class="muted">Exports the data above and runs <code>analysis/analysis.py</code>: hypothesis test, effect size, topic and item results, gameplay summary and charts. Results are also saved in the <code>exports/</code> folder.</p>
+        <button class="btn" id="runAnalysis">Run analysis</button>
+        <div id="analysisOut"></div>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="{{ url_for('static', filename='js/admin.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+cohens_dz,n_one_sided_t,n_two_sided_t,n_one_sided_wilcoxon_approx,power_with_n30_one_sided,power_with_n40_one_sided
+0.3,71,90,75,0.484,0.587
+0.4,41,52,43,0.69,0.8
+0.5,27,34,29,0.848,0.928
+0.6,19,24,20,0.941,0.981
+0.8,12,15,13,0.996,1.0
+1.0,8,10,9,1.0,1.0
