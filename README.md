@@ -30,7 +30,7 @@ python run.py
 py -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-copy .env.example .env
+.env.example .env
 python db\init_db.py --approve-all-demo
 python run.py
 ```
@@ -65,17 +65,17 @@ Refreshing the page resumes at the current level, and already-answered questions
 
 ## 3. Before the pilot (required)
 
-- [ ] **Remove the demo approvals.** `--approve-all-demo` marks all 56 questions as approved without review
+- **Remove the demo approvals.** `--approve-all-demo` marks all 56 questions as approved without review
       (the admin page warns about this). For the real pilot run `python db/init_db.py --reset`. This
       deletes the database, including test data. Then review the questions properly.
-- [ ] **Medical review.** In **/admin → Review questions**, a faculty member or clinician checks each question
+- **Medical review.** In **/admin → Review questions**, a faculty member or clinician checks each question
       against its cited fact and approves it, marks it "Needs edit" or rejects it. Only approved questions are
       served. Levels 1-4 each need at least 5 approved questions; Level 5 needs 4.
-- [ ] **Hindi review.** The Hindi text is an AI draft, so a native speaker should read it, ideally aloud.
-- [ ] **Re-check dated facts.** These are the WHO GLASS 2025 figures, NAP-AMR 2.0 and World AMR Awareness Week 2026
+- **Hindi review.** The Hindi text is an AI draft, so a native speaker should read it, ideally aloud.
+- **Re-check dated facts.** These are the WHO GLASS 2025 figures, NAP-AMR 2.0 and World AMR Awareness Week 2026
       (questions AQ047-AQ051 and AQ055-AQ056).
-- [ ] **Change `ADMIN_TOKEN`** in `.env`.
-- [ ] **Test the whole flow** with "Team test run" ticked, on the phones and laptops you will use.
+- **Change `ADMIN_TOKEN`** in `.env`.
+- **Test the whole flow** with "Team test run" ticked, on the phones and laptops you will use.
 
 **To change a question's wording:** in **/admin → Data and analysis**, download "Question bank (with
 reviews)". Edit it in Excel, save it as `data/AMR_Question_Bank.csv` (CSV UTF-8), and run
@@ -93,7 +93,7 @@ Or from the terminal:
 ```bash
 python tools/export_data.py --out exports/latest
 python analysis/analysis.py --prepost exports/latest/Pre_Post_Test_Results.csv \
-  --log exports/latest/Gameplay_Answer_Log.csv --levels exports/latest/Gameplay_Analytics.csv --out results
+--log exports/latest/Gameplay_Answer_Log.csv --levels exports/latest/Gameplay_Analytics.csv --out results
 python analysis/analysis.py --power-only        # sample-size table for the Hypothesis slide
 ```
 
